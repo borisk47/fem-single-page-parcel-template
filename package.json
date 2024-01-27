@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.11.0",
+    "@parcel/transformer-sass": "2.11.0",
+    "autoprefixer": "^10.4.17",
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  }
+}

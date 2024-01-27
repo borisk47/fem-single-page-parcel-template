@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --btn-color: hsl(40,0%,95%)
+}
+
+
+//Example component for buttons
+@layer components {
+    .btn {
+      @apply 
+        px-6 py-3 rounded-full 
+        border border-[--btn-color] border-[2px]
+        bg-[--btn-color] cursor-pointer  text-[--section-color]
+        
+        hover:bg-transparent hover:text-[--btn-color]
+        cursor-pointer
+        ;  
+
+    }
+}
+
+// This is how to bring required fonts in
+// also see inclusion of Google font link in the index.pug
+@layer utilities {
+    .font-lexend {
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .font-big-shoulder {
+        font-family: 'Big Shoulders Display', sans-serif;
+    }
+}
