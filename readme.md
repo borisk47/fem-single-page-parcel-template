@@ -1,8 +1,8 @@
 # Front End Mentor template
 
-This is a template for solving single page FrontEndMentor challenges.
-It uses
+This is a template for solving single page FrontEndMentor challenges.  
 
+It uses:
 - Yarn for package management https://yarnpkg.com/
 - Parcel https://parceljs.org/
 - Pug for HTML templates https://pugjs.org/
